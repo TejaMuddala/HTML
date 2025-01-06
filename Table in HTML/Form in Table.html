@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="icon" type="image/jpg" href="transparent-circle-yellow-turquoise-5de4dda19c3389.4000019615752800336398.jpg">
+    <style>
+        body{
+            background-image: url(image1.jpg);
+            background-size: cover;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Registration Form</h1>
+    <table border="1" align="center" cellspacing="0" cellpadding=20px style="width: 40%; border-color: rgb(2, 2, 2); background-color: rgb(243, 243, 243); border-right-color:rgb(255, 255, 255):;">
+        <form>
+            <tr>
+                <td width="200px"> 
+                    <label for="name"><b>Enter Your Name:</b></label>
+                </td>
+                <td width="200px"><input type="text" placeholder="Enter your Full Name" required></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="password"><b>Enter Password:</b></label>
+                </td>
+                <td><input type="password" placeholder="Enter Password" required></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="age"><b>Age:</b></label>
+                </td>
+                <td><input type="number" placeholder="Age" required></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="date of birth"><b>Data of Birth:</b></label>
+                </td>
+                <td><input type="date" placeholder="dd-mm-yy" required></td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="gender"><b>Gender:</b></label>
+                </td>
+                <td><input type="radio" name="Gender" value="Male">Male <input type="radio" name="Gender" value="Female" >Female <input type="radio" name="Gender" value="Other">Other </td>
+            </tr>
+            <tr>
+                <td> 
+                    <label for="Country"><b>Country:</b></label>
+                </td>
+                <td><select required>
+                    <option value="">Enter your Country</option> 
+                    <option value="India">India</option>
+                    <option value="America">America</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Germany">Germany</option>
+                    <option value="Pakisthan">Pakisthan</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><b>About Your Self:</b></td>
+                <td> 
+                    <textarea cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+        </div>
+        </form>
+    </table>
+</body>
+</html>
